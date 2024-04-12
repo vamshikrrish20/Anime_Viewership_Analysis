@@ -1,22 +1,25 @@
-# Anime_Viewership_Analysis
+# Anime Viewership Analysis
 
-Status: In progress
+**Status**: In progress
 
-Project desciption:
-This project was developed as a dual-purpose system using XGBoost and Cosine Similarity models to optimize anime recommendations and predict viewership ratings. The system enhances viewer experience by matching them with preferred anime genres, reducing decision fatigue. Additionally, it provides studios with predictive insights on potential ratings, aiding in strategic planning for new productions. Trained on comprehensive datasets, the model combines content-based filtering with advanced machine learning to deliver tailored recommendations and accurate forecasts, supporting both viewer engagement and studio investment decisions.
+Welcome to the Anime Viewership Analysis project! This repository houses all the code and documentation for my data science project aimed at alleviating user decision fatigue and providing predictive insights to anime studios.
 
-Problem Statement:
+## Project Overview
 
-  -As viewers grapple with the overwhelming selection of anime, there's a twofold challenge: alleviating user decision fatigue and providing anime studios with predictive insights on viewership ratings to guide investment in future productions.
+**Problem Statement:** As anime fans face an overwhelming array of choices, the dual challenges of easing decision fatigue and providing studios with data-driven insights into potential viewership ratings are more prominent than ever.
 
-Solution Overview:
+**Solution:** This project introduces a dual-purpose recommendation system utilizing XGBoost and Cosine Similarity models. These models not only tailor recommendations to enhance user experience but also help studios forecast potential ratings for upcoming productions.
 
-  -Introduced a dual-purpose recommendation system powered by XGBoost and Cosine Similarity models to tailor viewer recommendations and forecast anime ratings.
+## Repository Contents
 
-  -Utilized comprehensive datasets to train the model, which not only customizes user experience but also assists studios in understanding trends and potential ratings for new titles.
+- `data/` - Contains the datasets used, including user ratings and detailed anime statistics.
+- `notebooks/` - Jupyter notebooks illustrating the exploratory data analysis and modeling steps.
+- `docs/` - Additional documentation and project report.
 
-  -The models demonstrated high predictive accuracy in forecasting viewership ratings, which is essential for both user engagement and studio decision-making.
+## Technologies Used
 
-  -Applied content-based filtering techniques, aligning viewers with preferred genres and guiding studios on content creation to ensure high engagement and return on investment.
-
-
+- **Python** for all programming needs.
+- **Pandas** and **NumPy** for data manipulation.
+- **Scikit-Learn** for machine learning modeling.
+- **XGBoost** for building the predictive model.
+- **Cosine Similarity** for the recommendation system.
